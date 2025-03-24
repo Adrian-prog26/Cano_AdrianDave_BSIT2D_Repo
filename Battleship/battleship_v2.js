@@ -43,3 +43,4 @@ var accuracy = (guesses > 0 ? (hits / guesses) * 100 : 0).toFixed(2);
 var stats = "You took" + guesses + "Guess to sink the battleship," + accuracy + "%";
 
 alert(stats);
+

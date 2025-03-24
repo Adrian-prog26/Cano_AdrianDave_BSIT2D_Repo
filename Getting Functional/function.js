@@ -1,6 +1,6 @@
 var dogName = "Callie";
 var dogWeight = 23;
-if (dogWeight > 28) {
+if (dogWeight > 20) {
     console.log(dogName + "says WOOF WOOF");
 }else {
     console.log(dogName + "says woof woof");
@@ -8,7 +8,7 @@ if (dogWeight > 28) {
 
 var dogName = "Luna";
 var dogWeight = 22;
-if (dogWeight > 25) {
+if (dogWeight > 20) {
     console.log(dogName + "says WOOF WOOF");
 }else {
     console.log(dogName + "says woof woof");
@@ -24,7 +24,7 @@ if (dogWeight > 20) {
 
 var dogName = "Viance";
 var dogWeight = 24;
-if (dogWeight > 19) {
+if (dogWeight > 20) {
     console.log(dogName + "says WOOF WOOF");
 }else {
     console.log(dogName + "says woof woof");
@@ -39,5 +39,7 @@ function bark(name, weight) {
 }
 
 
-bark("Callie", 60);
-bark("Luna", 15);
+bark("Callie", 23);
+bark("Luna", 22);
+bark("Gin", 24);
+bark("Viance", 24);
